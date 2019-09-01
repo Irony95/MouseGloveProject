@@ -6,18 +6,15 @@ arduino code located in   : Mouse Glove arduino code
 
 
 uses an arduino uno with a mpu6050 accelerometer and hm-05 bluetooth module.
-This is literally the hardest project i have done so far lol.
 
 the arduino reads the data sends it to my computer in the format
 
 gx|gy|gz|ax|ay|az;
 
-where "g" stands for gyroscope and "a" stands for acceleration.
+where gx, gy, gz are gyroscope for the x, y and z respectively and ax, ay, az is acceleration for x, y and z.
 the computer then does some math to calculate the roll and pitch to determine the speed of the 
-cursor. the left/right click is done with the estimation of the gyroscope.
+cursor. the left/right click is done with acceleration of yaw.
 
 the baud rate it usually runs on is 115200
 in order to check the serial port the bluetooth is connected to, just check under extra bluetooth options
 
-
---yiwei
