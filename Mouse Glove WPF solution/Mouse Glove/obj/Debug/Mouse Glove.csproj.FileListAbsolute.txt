@@ -1,0 +1,15 @@
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\bin\Debug\Mouse Glove.exe.config
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\bin\Debug\Mouse Glove.exe
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\bin\Debug\Mouse Glove.pdb
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove.csprojAssemblyReference.cache
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\MainWindow.g.cs
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\App.g.cs
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove_MarkupCompile.cache
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove_MarkupCompile.lref
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\MainWindow.baml
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove.g.resources
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse_Glove.Properties.Resources.resources
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove.csproj.GenerateResource.cache
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove.csproj.CoreCompileInputs.cache
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove.exe
+D:\.My stuff\10. visual studio codes\cs solutions\WPF solutions\Mouse Glove\Mouse Glove\obj\Debug\Mouse Glove.pdb

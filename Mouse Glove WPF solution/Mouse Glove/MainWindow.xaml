@@ -1,0 +1,85 @@
+﻿<Window x:Class="Mouse_Glove.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mouse_Glove"
+        mc:Ignorable="d"
+        Title="Glove controller" Height="450" Width="800" Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+
+            <ColumnDefinition Width="100"/>
+
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+
+
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+
+            <RowDefinition Height="10"/>
+
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="35"/>
+            
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="35"/>
+
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <ComboBox x:Name="portsComboBox" Grid.Column="1" Grid.Row="1" Margin="5, 5, 5, 5"/>
+        <ComboBox x:Name="baudRateComboBox" Grid.Column="2" Grid.Row="1" Margin="5, 5, 5, 5"/>
+        <Button x:Name="connectButton" Content="Connect" Grid.Column="3" Grid.Row="1" Margin="5, 5, 5, 5" Click="ConnectButton_Click"/>
+
+        <TextBlock x:Name="informationTextBlock" FontSize="18" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="6" Margin="5, 5, 5, 5" TextWrapping="Wrap"> Please Connect To Glove</TextBlock>
+        <Separator Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="8"/>
+
+
+        <Label x:Name="rollLabel" FontSize="13" Grid.Column="7" Grid.Row="4" Margin="5, 5, 5, 5">Roll</Label>
+        <Label x:Name="pitchLabel" FontSize="13" Grid.Column="8" Grid.Row="4" Margin="5, 5, 5, 5">Pitch</Label>
+        <Label x:Name="clickAccuactionLabel" FontSize="13" Grid.Column="7" Grid.Row="6" Margin="5, 5, 5, 5" Grid.ColumnSpan="2">click Accuaction</Label>
+
+        <TextBlock x:Name="displayRollTextBlock" FontSize="13" Grid.Column="7" Grid.Row="5" Margin="5, 5, 5, 5" TextWrapping="Wrap"/>
+        <TextBlock x:Name="displayPitchTextBlock" FontSize="13" Grid.Column="8" Grid.Row="5" Margin="5, 5, 5, 5" TextWrapping="Wrap"/>
+        <TextBlock x:Name="displayAccuactionTextBlock" FontSize="13" Grid.Column="7" Grid.Row="7" Margin="5, 5, 5, 5" TextWrapping="Wrap"/>
+                
+        <Button x:Name="updateButton" Content="Update" Grid.Column="1" Grid.Row="4" Margin="5, 5, 5, 5" Click="UpdateButton_Click"/>
+
+        <TextBlock x:Name="minRollInfoTextBlock" FontSize="13" Grid.Column="2" Grid.Row="4" Margin="5, 5, 5, 5" TextWrapping="Wrap"> minimum Roll angle(°)</TextBlock>
+        <TextBlock x:Name="minPitchInfoTextBlock" FontSize="13" Grid.Column="3" Grid.Row="4" Margin="5, 5, 5, 5" TextWrapping="Wrap"> minimum Pitch angle(°)</TextBlock>
+        <TextBlock x:Name="minSpeedInfoTextBlock" FontSize="13" Grid.Column="4" Grid.Row="4" Margin="5, 5, 5, 5" TextWrapping="Wrap"> minimum speed(pxl)</TextBlock>
+
+        <TextBox x:Name="minRollTextBox" Grid.Column="2" Grid.Row="5" Margin="5, 5, 5, 5"/>
+        <TextBox x:Name="minPitchTextBox" Grid.Column="3" Grid.Row="5" Margin="5, 5, 5, 5"/>
+        <TextBox x:Name="minSpeedTextBox" Grid.Column="4" Grid.Row="5" Margin="5, 5, 5, 5"/>
+
+        <TextBlock x:Name="maxRollInfoTextBlock" FontSize="13" Grid.Column="2" Grid.Row="6" Margin="5, 5, 5, 5" TextWrapping="Wrap"> maximum Roll angle(°)</TextBlock>
+        <TextBlock x:Name="maxPitchInfoTextBlock" FontSize="13" Grid.Column="3" Grid.Row="6" Margin="5, 5, 5, 5" TextWrapping="Wrap"> maximum Pitch angle(°)</TextBlock>
+        <TextBlock x:Name="maxSpeedInfoTextBlock" FontSize="13" Grid.Column="4" Grid.Row="6" Margin="5, 5, 5, 5" TextWrapping="Wrap"> maximum speed(pxl)</TextBlock>
+        <TextBlock x:Name="activationInfoTextBlock" FontSize="13" Grid.Column="5" Grid.Row="6" Margin="5, 5, 5, 5" TextWrapping="Wrap"> punch to click (only right clicks)</TextBlock>
+
+        <TextBox x:Name="maxRollTextBox" Grid.Column="2" Grid.Row="7" Margin="5, 5, 5, 5"/>
+        <TextBox x:Name="maxPitchTextBox" Grid.Column="3" Grid.Row="7" Margin="5, 5, 5, 5"/>
+        <TextBox x:Name="maxSpeedTextBox" Grid.Column="4" Grid.Row="7" Margin="5, 5, 5, 5"/>
+        <CheckBox x:Name="activationCheckBox" Grid.Column="5" Grid.Row="7" Margin="5, 5, 5, 5"/>
+
+        <TextBlock x:Name="clickAccuactionInfoTextBlock" FontSize="13" Grid.Column="5" Grid.Row="4" Margin="5, 5, 5, 5" TextWrapping="Wrap"> click accuation</TextBlock>
+
+        <TextBox x:Name="clickAccuactionTextBox" Grid.Column="5" Grid.Row="5" Margin="5, 5, 5, 5"/>
+
+    </Grid>
+</Window>
